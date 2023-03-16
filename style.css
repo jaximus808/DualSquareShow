@@ -1,0 +1,45 @@
+canvas
+{
+    position: absolute;
+    left:50%;
+    top:50%;
+    transform: translate(-50%,-50%);
+    border: 2px black solid;
+}
+
+
+#status{
+    display: block;
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    z-index: 5;
+    font-size: 4vw;
+}
+#titleswag
+{
+    position: absolute;
+    left:50%;
+    transform: translate(-50%,-60%);
+    font-size: 4vh;
+}
+
+#by
+{
+    font-size: 2.5vh;
+}
+
+#dashStatus
+{
+    width:4.5%;
+    margin-left: -0.3%;
+    font-size: 1.1vw;
+}
+
+#controlsStatus
+{
+    width:4.5%;
+    margin-left: -0.3%;
+    font-size: 1.1vw;
+}
